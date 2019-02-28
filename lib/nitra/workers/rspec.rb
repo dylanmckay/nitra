@@ -101,8 +101,6 @@ module Nitra::Workers
       # to upgrade.
       #
       # RSpec.reset
-      #
-      RSpec.instance_variable_set(:@world, nil)
 
       # reset the reporter so we don't end up with two when we reuse the Configuration
       RSpec.configuration.reset
